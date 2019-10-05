@@ -2,16 +2,16 @@
 class Ghglob < Formula
   desc "ghglob is glob, or more like pattern matcher based on GitHub Actions's Filter pattern spec."
   homepage "https://github.com/haya14busa/ghglob"
-  version "2.0.0"
+  version "2.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/haya14busa/ghglob/releases/download/v2.0.0/ghglob_2.0.0_Darwin_x86_64.tar.gz"
-    sha256 "1d4de55b8a64043a5971ea98a0f282745f6b8e80395c2bbfe0777fd18237b5e7"
+    url "https://github.com/haya14busa/ghglob/releases/download/v2.0.1/ghglob_2.0.1_Darwin_x86_64.tar.gz"
+    sha256 "0244e69573a4b51605df2023f790df58946264ebbadfc922c33579df38b08ff4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/haya14busa/ghglob/releases/download/v2.0.0/ghglob_2.0.0_Linux_x86_64.tar.gz"
-      sha256 "7883623767ae3a079a18834abe626e144fe848c7a5529b83a3f793d1c7eafe2b"
+      url "https://github.com/haya14busa/ghglob/releases/download/v2.0.1/ghglob_2.0.1_Linux_x86_64.tar.gz"
+      sha256 "3ff744f07b23bbc371f353b45399815383e796aa1bf518dab37ee9059a5ddb25"
     end
   end
 
