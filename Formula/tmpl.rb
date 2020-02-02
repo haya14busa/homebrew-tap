@@ -2,16 +2,16 @@
 class Tmpl < Formula
   desc "Generate textual output using Go text/template from given data in STDIN"
   homepage "https://github.com/haya14busa/tmpl"
-  version "1.0.1"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/haya14busa/tmpl/releases/download/v1.0.1/tmpl_1.0.1_darwin_amd64.tar.gz"
-    sha256 "47c403f6c3fa648a577a0998336651f01b4a2083f5319dbfaa5def8e98a15685"
+    url "https://github.com/haya14busa/tmpl/releases/download/v1.1.0/tmpl_1.1.0_darwin_amd64.tar.gz"
+    sha256 "fc640ff589ac90b36274cff7fe5e7cee53f1b24d0254c5afe5b1671d9a30e68d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/haya14busa/tmpl/releases/download/v1.0.1/tmpl_1.0.1_linux_amd64.tar.gz"
-      sha256 "3062a1c4797fa8f4a12eef356bab93a629d1bc49c3219d9678d585bce237cb17"
+      url "https://github.com/haya14busa/tmpl/releases/download/v1.1.0/tmpl_1.1.0_linux_amd64.tar.gz"
+      sha256 "aed697237bf8748c0e604276b043adcb7a424f5ded4e4ffd09b5f422a2ccb2cc"
     end
   end
 
