@@ -2,16 +2,16 @@
 class Bump < Formula
   desc "bump returns next semantic version tag."
   homepage "https://github.com/haya14busa/bump"
-  version "1.0.1"
+  version "1.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/haya14busa/bump/releases/download/v1.0.1/bump_1.0.1_Darwin_x86_64.tar.gz"
-    sha256 "3dc84dadd722e52b44a46721661347fb3e646fa23d03dec3432c0d20adcda1ff"
+    url "https://github.com/haya14busa/bump/releases/download/v1.1.0/bump_1.1.0_Darwin_x86_64.tar.gz"
+    sha256 "4c04f70264e5678557344962a502a6cf571bddb67a64b90ae9a903ea7fe904cf"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/haya14busa/bump/releases/download/v1.0.1/bump_1.0.1_Linux_x86_64.tar.gz"
-      sha256 "e572b21a90954238f41a20caa33ac9b9eb980d5711888ac684ac36c41bc3cac8"
+      url "https://github.com/haya14busa/bump/releases/download/v1.1.0/bump_1.1.0_Linux_x86_64.tar.gz"
+      sha256 "fa4ebd5ebe8706435ee34ba5d1837e2960ad50fa184e12a1a950c5e9fc16a942"
     end
   end
 
